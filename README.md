@@ -1,15 +1,20 @@
-# transaction_app
+# FinancialRecord App (Catatan Keuangan) 
 
-A new Flutter project.
+Aplikasi mobile yang membantu pengguna mencatat pemasukan dan pengeluaran harian mereka secara praktis. Aplikasi ini menyediakan tampilan ringkas transaksi, statistik pemasukan/pengeluaran, serta fitur profil yang dapat disesuaikan, termasuk pengaturan tema gelap/terang.
 
-## Getting Started
+## Fitur Aplikasi
 
-This project is a starting point for a Flutter application.
+No.	Fitur	Deskripsi
+1.	Manajemen Transaksi	-	Pengguna dapat menambahkan, mengedit, dan menghapus transaksi yang terdiri dari kategori pemasukan dan pengeluaran.
+-	Kategori transaksi: pemasukan (income) & pengeluaran (outcome)
 
-A few resources to get you started if this is your first Flutter project:
+2.	Filter Berdasarkan Tanggal	-	Pengguna dapat memilih tanggal, bulan, dan tahun tertentu untuk melihat transaksi yang relevan.
+3.	Ringkasan Keuangan	- Menampilkan total pemasukan dan pengeluaran untuk periode yang dipilih.
+4.	Halaman Profil	- Pengguna dapat mengakses layar profil untuk menyesuaikan nama, email, dan foto profil
+5.	Mode Gelap/ Terang	-	Aplikasi mendukung pengalihan antara mode terang dan gelap secara real-time, memungkinkan pengalaman pengguna yang lebih baik sesuai preferensi tampilan.
+-	Pengguna dapat mengaktifkan atau menonaktifkan dark mode
+-	Disimpan secara permanen (persisted)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
